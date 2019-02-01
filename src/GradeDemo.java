@@ -7,9 +7,10 @@ public class GradeDemo {
 		Process process;
 		Output out;
 		
+		System.out.print("Score: ");
 		int score = input.inInt();
 		process = new Process(score);
-		System.out.println(process.calculate());
+		System.out.println("Grade: " + process.calculate());
 	}
 
 }
